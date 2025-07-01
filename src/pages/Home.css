@@ -1,0 +1,94 @@
+.home-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar and Right Sidebar */
+.sidebar, .right-sidebar {
+  width: 220px;
+  padding: 20px;
+  background-color: #212529;
+  color: white;
+  overflow-y: auto;
+}
+
+.sidebar h3, .right-sidebar h3 {
+  margin-bottom: 15px;
+}
+
+.sidebar ul, .right-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li, .right-sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a, .right-sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+  overflow-y: auto;
+}
+
+/* Carousel */
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.carousel-image {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* Section Title */
+.section-title {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+/* Game List */
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.game-card {
+  width: 200px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.game-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Trailers on Right */
+.trailer-wrapper {
+  margin-bottom: 20px;
+}
+
+.trailer-wrapper p {
+  margin: 5px 0;
+  font-weight: bold;
+}

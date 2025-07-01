@@ -1,0 +1,85 @@
+/* login.css */
+
+/* Set the background image and cover the entire page */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-page {
+    background-image: url('C:\Users\jame\gaming-info-app\public\images/1278682.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with transparency */
+    padding: 40px;
+    border-radius: 8px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  .logo {
+    display: block;           /* Makes the image behave like a block element */
+    margin: 0 auto 20px auto; /* Center horizontally, 20px space below */
+    width: 150px;             /* Adjust size as needed */
+    height: auto;             /* Keep aspect ratio */
+    border-radius: 8px;       /* Optional: smooth corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional subtle shadow */
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #806a6a;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #165eab;
+  }
+  
+  .login-options {
+    margin-top: 20px;
+  }
+  
+  .login-options a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .login-options p {
+    font-size: 14px;
+  }
+  
+  .login-options a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,82 @@
+/* signup.css */
+
+/* Set the background image and cover the entire page */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .signup-page {
+    background-image: url('C:\Users\jame\gaming-info-app\public\images/1335691.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-container {
+    background-color: rgba(255, 255, 255, 0.5); /* White background with transparency */
+    padding: 40px;
+    border-radius: 8px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  .signup-logo {
+    width: 150px;
+    margin-bottom: 20px;
+
+
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5); /* White background with transparency */
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #36a420;
+  }
+  
+  .signup-options {
+    margin-top: 20px;
+  }
+  
+  .signup-options p {
+    font-size: 14px;
+  }
+  
+  .signup-options a {
+    color: #42b72a;
+    text-decoration: none;
+  }
+  
+  .signup-options a:hover {
+    text-decoration: underline;
+  }
+  
